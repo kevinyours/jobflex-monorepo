@@ -1,0 +1,5 @@
+build
+dist
+coverage
+*.html
+node_modules
