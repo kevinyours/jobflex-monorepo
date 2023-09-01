@@ -1,6 +1,6 @@
 module.exports = {
 	semi: true,
-	useTabs: true,
+	useTabs: false,
 	arrowParens: 'always',
 	trailingComma: 'all',
 	bracketSpacing: true,
@@ -13,4 +13,5 @@ module.exports = {
 	jsxBracketSameLine: false,
 	jsxSingleQuote: true,
 	organizeImportsSkipDestructiveCodeActions: true,
+	plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss'],
 };
