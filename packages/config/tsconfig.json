@@ -1,0 +1,5 @@
+{
+  "extends": "tsconfig/utility.json",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
